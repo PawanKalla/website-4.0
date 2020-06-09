@@ -1,0 +1,184 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+
+}
+
+h1{
+  font-family:'Montserrat-bold';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-size: 3rem;
+  font-family: "Montserrat-bold";
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 15%;
+}
+
+
+/* navigation bar */
+
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 30px;
+
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "Montserrat-Light";
+}
+
+
+/* button-download */
+
+
+.button-download{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* title-image */
+
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position:absolute;
+  right:30%
+}
+
+  /* features */
+
+
+#features{
+  padding:80px;
+  background-color: #fff;
+  font-family: "Montserrat-bold";
+  position: relative;
+}
+
+
+/* icons */
+
+
+.fa-check-circle{
+  color: #ef8172;
+  padding-bottom: 10px;
+
+}
+.fa-bullseye{
+  color: #ef8172;
+  padding-bottom: 10px;
+}
+ .fa-heart{
+  color: #ef8172;
+  padding-bottom: 10px;
+}
+.padding{
+  padding: 50px;
+}
+.hover:hover{
+  color: #ff4c68;
+}
+p{
+  color: #8f8f8f;
+}
+
+
+/* Testimonials */
+
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  padding-top: 20px;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-img{
+  width:15%;
+  margin: 20px 20px 15px;
+}
+/* Pricing section */
+
+
+#pricing{
+  padding: 100px;
+
+}
+.pricing-col{
+  padding:2% 3%;
+}
+
+@media (max-width: 995px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+
+/* CTA */
+
+
+#cta{
+  background-color:#ff4c68;
+  margin-bottom: 30px;
+  padding: 8%;
+
+
+}
+#cta h3{
+  font-family: "Montserrat-bold";
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+/* footer */
+
+
+.button-footer{
+  margin: 2% 2% 2% 0;
+}
+#footer{
+  padding: 4%;
+}
+
+.footer-icon{
+  margin: 20px 10px;
+  color: #000;
+}
+.footer-icon:hover{
+  color:#ff4c68;
+}
